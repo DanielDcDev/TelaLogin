@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(186, 47, 108, 0.742);
+}
+.header{
+    background-color: rgb(121, 127, 132);
+    padding: 10px;
+    display: flex;
+}
+.hotbar{
+    margin-left: auto;
+    white-space: nowrap;
+}
+.link_head, h1{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition-timing-function: ease;
+    transition-duration: 0.9s;
+}
+.link_head:hover, h1:hover{
+    color: antiquewhite;
+}
+.body_Cadaster{
+    padding-bottom: 10px;
+    margin-top: 20vh;
+    background-color: rgb(121, 127, 132);
+    display: grid;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    border: 3px solid;
+    border-radius:5px ;
+    width: 500px;
+}
+.title_Cadaster{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.Cadaster_inputs{
+    width: 30vh;
+    height: 35px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(121, 127, 132);
+    color: rgba(186, 47, 108, 0.742);
+    transition-timing-function: ease;
+    transition-duration: 0.9s;
+    font-size: large;
+}
+.Cadaster_inputs:hover{
+    background-color: antiquewhite;
+    color: black;
+}.Cadaster_inputs::placeholder{
+    color: rgba(186, 47, 108, 0.742);;
+    font-size: large;
+}
+.button_cadaster{
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
